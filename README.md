@@ -11,18 +11,22 @@
 ## How to use
 
 1. 右上の `Fork` ボタンを押してください。
-2. `#{自分のアカウント名}/fbc-swr-practice` が作成されます。
-3. 作業 PC の任意の作業ディレクトリにて `git clone` してください。
+1. `#{自分のアカウント名}/fbc-swr-practice` が作成されます。
+1. 作業 PC の任意の作業ディレクトリにて `git clone` してください。
 
 ```
 $ git clone https://github.com/自分のアカウント名/fbc-swr-practice.git
 ```
 
-4. `cd fbc-swr-practice` でカレントディレクトリを変更してください。
-5. `npm start`でローカルサーバーを起動できます。
-6. ソースコードを修正したら、自動的にアプリケーションが更新されます。動作を確認してください。
-7. 自分が書いたコードを GitHub に push してください。
-8. ソースコードが完成したら、以下の注意点に気を付けながら自分のリポジトリへの Pull Request を作成し、URL を提出してください。
+1. 各プラクティスのブランチをmainブランチから作ってください。例えばfizzbuzz用ならば以下のようにします。
+```
+$ git checkout -b my-fizzbuzz main
+```
+1. `cd fbc-swr-practice` でカレントディレクトリを変更してください。
+1. `npm start`でローカルサーバーを起動できます。
+1. ソースコードを修正したら、自動的にアプリケーションが更新されます。動作を確認してください。
+1. 自分が書いたコードを GitHub に push してください。
+1. ソースコードが完成したら、以下の注意点に気を付けながら自分のリポジトリへの Pull Request を作成し、URL を提出してください。
    - OK `自分のアカウント名/main` ← `自分のアカウント名/fbc-swr-practice`
    - NG `fjordllc/main` ← `自分のアカウント名/fbc-swr-practice`
-9. 合格したら上記 Pull Request をマージしてください。
+1. 合格したら上記 Pull Request をマージしてください。
